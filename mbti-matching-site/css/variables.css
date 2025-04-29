@@ -1,0 +1,68 @@
+:root {
+  /* カラーパレット */
+  --primary-color: #FF97B7;
+  --primary-light: #FFC2D6;
+  --primary-dark: #E57A9A;
+  
+  --secondary-color: #97C1FF;
+  --secondary-light: #C2DDFF;
+  --secondary-dark: #7A9FE5;
+  
+  --accent-color: #FFD397;
+  --accent-light: #FFEDD8;
+  --accent-dark: #E5A97A;
+  
+  --success-color: #97FFBA;
+  --warning-color: #FFE797;
+  --error-color: #FF9797;
+  
+  --neutral-lightest: #FFFFFF;
+  --neutral-light: #F5F5F7;
+  --neutral-medium: #E0E0E5;
+  --neutral-dark: #9A9AA5;
+  --neutral-darkest: #454550;
+  
+  /* タイポグラフィ */
+  --font-family: 'M PLUS Rounded 1c', sans-serif;
+  --font-size-xs: 0.75rem;  /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-md: 1rem;     /* 16px */
+  --font-size-lg: 1.25rem;  /* 20px */
+  --font-size-xl: 1.5rem;   /* 24px */
+  --font-size-xxl: 2rem;    /* 32px */
+  
+  --font-weight-light: 300;
+  --font-weight-regular: 500;
+  --font-weight-bold: 700;
+  
+  --line-height-body: 1.5;
+  --line-height-heading: 1.2;
+  
+  /* スペーシング */
+  --spacing-xs: 0.25rem;  /* 4px */
+  --spacing-sm: 0.5rem;   /* 8px */
+  --spacing-md: 1rem;     /* 16px */
+  --spacing-lg: 1.5rem;   /* 24px */
+  --spacing-xl: 2rem;     /* 32px */
+  --spacing-xxl: 3rem;    /* 48px */
+  
+  /* 境界とシャドウ */
+  --border-radius-sm: 0.5rem;   /* 8px */
+  --border-radius-md: 1rem;     /* 16px */
+  --border-radius-lg: 1.5rem;   /* 24px */
+  --border-radius-circle: 50%;
+  
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+  
+  /* アニメーション */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* コンテナサイズ */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+}

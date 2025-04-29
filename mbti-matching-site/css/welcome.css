@@ -1,0 +1,72 @@
+/* ベーススタイル */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--neutral-light);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-container {
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.welcome-title {
+  font-size: var(--font-size-xxl);
+  color: var(--primary-dark);
+  margin-bottom: var(--spacing-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.start-button {
+  display: inline-block;
+  padding: var(--spacing-md) var(--spacing-xl);
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--border-radius-md);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+  transition: var(--transition-fast);
+  box-shadow: var(--shadow-md);
+}
+
+.start-button:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.start-button:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 480px) {
+  .welcome-title {
+    font-size: var(--font-size-xl);
+  }
+  
+  .start-button {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    font-size: var(--font-size-md);
+  }
+}
